@@ -10,6 +10,12 @@ class MainSplashScreen extends StatelessWidget {
         ),
         backgroundColor: Color(0xFF9C27B0),
       ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [Text("Olaa")],
+        ),
+      ),
     );
   }
 }
